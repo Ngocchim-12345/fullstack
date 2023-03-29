@@ -1,0 +1,91 @@
+/* .input-username{
+    margin: 10px 0px 10px 20px;
+}
+
+.input-pass{
+    margin: 10px 0px 10px 10px;
+} */
+
+#login-form{ 
+    /* trên phải dưới trái */
+    /* margin: 10px 0px 10px 50px; */
+
+    /* double trên-phải, dưới-trái */
+    /* margin: 50px 50px; */
+    margin: 50px;
+    margin-top: 100px;
+    margin-right: 200px;
+    border: 2px solid red;
+    padding: 10px;
+    padding-left: 20px;
+    width: 500px;/*  rộng */
+    height: 500px;  /*  dài */
+    background-color: hsl(60, 100%, 50%); /*  màu nền */
+    color: pink; /*  bôi màu content */
+}
+
+.input{
+    margin: 10px 0px 10px 20px;
+}
+
+.hinhvuong1 {
+    height: 50px;
+    width: 50px;
+    background-color: rgb(255, 0, 0);
+    margin-bottom: 20px;
+  }
+  .hinhvuong2 {
+    height: 50px;
+    width: 50px;
+    background-color: rgb(255, 165, 0);
+    margin-bottom: 20px;
+  }
+  .hinhvuong3 {
+    height: 50px;
+    width: 50px;
+    background-color: rgb(60, 179, 113);
+  }
+
+
+  /* cách 1 */
+  /* .box{
+    width: 100px;
+    height: 100px;
+  }
+
+  .box1{
+    background-color: rebeccapurple;
+  }
+
+  .box2{
+    background-color: red;
+  }
+
+  .box{
+    background-color: aqua;
+  } */
+
+
+  /* cách 2 */
+  .box1, .box2, .box3{
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    /* display: flex;
+    float: left; */
+
+    /* display: block; */ /* chiếm nguyên khối */
+    display: inline-block; /* chiếm nguyên block */
+  }
+
+  .box1{
+    background-color: rebeccapurple;
+  }
+
+  .box2{
+    background-color: red;
+  }
+
+  .box{
+    background-color: aqua;
+  }

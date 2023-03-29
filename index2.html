@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- favicon -->
+    <link rel="icon" type="icon/x-image" href="images/objective-lens-icon-with-six-rainbow-colors-vector.jpg">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML - DAY 1</title>
+</head>
+
+<style>
+    table,
+    td,
+    th {
+        border: 1px solid #ddd;
+        text-align: left;
+    }
+
+    table {
+        border-collapse: collapse;
+        width: 100%;
+    }
+
+    th,
+    td {
+        padding: 15px;
+    }
+
+    /* input[type=text]:focus{
+  outline: 2px solid orange;   
+} */
+input:focus {
+ color: red;
+ outline: 2px solid orange;  
+}
+input.visited {
+  color: red;
+ outline: 2px solid orange;  
+}
+
+
+/* input[type=text] {
+  border: none;        
+  padding: 4px 8px;
+  border-radius: 12px; 
+}
+input[type=text]:focus{
+  outline: none;      
+  box-shadow: 0 0 0 2px orange; 
+} */
+
+/* table, th, td {
+  border: 1px solid;
+} */
+
+</style>
+
+<body>
+    <!-- thẻ heading -->
+    <h1>hehe</h1>
+    <h2>hehhe</h2>
+    <h3>heheheheh</h3>
+    <h4>hhehheehe</h4>
+    <h5>hhhhhhhhh</h5>
+    <h6>ssssss</h6>
+    <!-- thẻ paragraph -->
+    <p>Helllo</p>
+    helooo
+
+    <!-- thẻ ul -->
+    <ul>
+        <li>aaaaa</li>
+        <li>hhhhhhhhhhhh</li>
+    </ul>
+
+    <!-- Order list -->
+
+    <ol>
+        <li>Dòng 1</li>
+        <li>DÒng 2</li>
+    </ol>
+
+    <!-- Table -->
+    <table>
+        <thead> <!--Phần đầu của bảng -->
+            <th>Tên</th>
+            <th>Tuổi</th>
+            <th>địa chỉ</th>
+            <th>Giới tính</th>
+            <th>Lớp học</th>
+        </thead>
+        <!-- Phần Thân -->
+        <tbody>
+            <!-- tr: table row (các dòng dữ liệu của bảng) -->
+            <tr>
+                <td>A</td>
+                <td>14</td>
+                <td>Hà Nội</td>
+                <td>Nam</td>
+                <td>fullsatack</td>
+            </tr>
+            <tr>
+                <td>A</td>
+                <td>14</td>
+                <td>Hà Nội</td>
+                <td>Nam</td>
+                <td>fullsatack</td>
+            </tr>
+            <tr>
+                <td>A</td>
+                <td>14</td>
+                <td>Hà Nội</td>
+                <td>Nam</td>
+                <td>fullsatack</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- Thẻ hình ảnh gồm source and alternate dài 100 pixels-->
+    <img width="100px" src="images/bg.jpg" alt="Hình ảnh đẹp">
+    Tạo 1 bảng gồm 5 cột
+    <!-- thẻ input nhập văn bản ngắn kiểu type: email, text, password, number -->
+    <input type="password" placeholder="vui lòng nhập email" value="heheh@gmail.com">
+    <!-- Cols: cột; rows: hàng -->
+    <textarea name="" id="" cols="30" rows="10"></textarea>
+
+    <!-- nút ấn -->
+    <button>Xác nhận</button>
+
+    Bài tập 2 có 2 ô tk và mk và 1 button
+
+    <!-- break line -->
+    <br>
+    <br>
+
+    <input type="text" placeholder="vui lòng nhập email">
+    <br>
+    <input type="password" placeholder="vui lòng nhập pass">
+    <br>
+    <!-- hr gióng br nhưng có dòng kẻ -->
+    <hr>
+    <button>Login</button>
+    <input type="button" value="đăng nhập">
+    <input type="submit">
+    <br>
+
+    <!-- thẻ anchor dùng chuyển hướng, thuộc tính target="_blank" mở ra tab mới -->
+    <a href="https://google.com" target="_blank">Google.com</a>
+
+
+
+    <!-- cú pháp viết tắt ul>li * n -->
+    <ul>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+        <li>5</li>
+    </ul>
+
+    <!-- (h3*3 tạo ra 3 thẻ) thẻ div và span -->
+
+    <div>
+        <h3>1</h3>
+        <h3>2</h3>
+        <h3>3</h3>
+    </div>
+    <div>Hello world</div>
+    <div>Hello world</div>
+    <span>Hello</span>
+    <span>Hello</span>
+
+
+    <!-- Câu 1: Tạo form đăng ký có 1 ô nhập tên, 1 ô nhập tuổi, 1 ô nhập email, 1 ô mật khẩu và 1 nút đăng ký
+    Câu 2: Tạo ra 1 bảng data dựa theo image bên dưới -->
+    <br>
+    <img src="/images/table.jpeg" width="500px" alt="baitap">
+
+
+    <h1>Bài 1</h1>
+    <input type="text" placeholder="Nhập tên">
+    <br>
+    <input type="email" placeholder="Nhập email" value="bla@gmail.com">
+    <br>
+    <input type="number" placeholder="Nhập tuổi">
+    <br>
+    <input type="text" placeholder="Nhập tuổi">
+    <br>
+    <!-- <input type="password" style="width: 149px;" placeholder="Nhập pass" value="kjkjkjhk">
+    <br> -->
+    <input type="submit" value="Submit">
+    <button>Login</button>
+
+    <h2>Bài 2</h2>
+
+
+    <table>
+        <thead> <!--Phần đầu của bảng -->
+            <th>Tên</th>
+            <th>Tuổi</th>
+            <th>địa chỉ</th>
+            <th>Giới tính</th>
+            <th>Lớp học</th>
+        </thead>
+        <!-- Phần Thân -->
+        <tbody>
+            <!-- tr: table row (các dòng dữ liệu của bảng) -->
+            <tr>
+                <td>A</td>
+                <td>14</td>
+                <td>Hà Nội</td>
+                <td>Nam</td>
+                <td>fullsatack</td>
+            </tr>
+            <tr>
+                <td>A</td>
+                <td>14</td>
+                <td>Hà Nội</td>
+                <td>Nam</td>
+                <td>fullsatack</td>
+            </tr>
+            <tr>
+                <td>A</td>
+                <td>14</td>
+                <td>Hà Nội</td>
+                <td>Nam</td>
+                <td>fullsatack</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <form>
+        First name: <input type="text" name="firstname" onchange="this.className=(this.value=='')?'':'visited';"><br>
+        Last name: <input type="text" onchange="this.className=(this.value=='')?'':'visited';" name="lastname">
+      </form>
+
+      <a href="loginday3.html">LoginPage</a>
+
+</body>
+
+</html>
